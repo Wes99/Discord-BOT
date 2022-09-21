@@ -42,5 +42,5 @@ async def admin(msg):
     role = discord.utils.get(intents.role, name="Admin")
     await bot.process_commands(msg)
 
-token = "MTAyMjE3MTE4MTk3NTA4MDk5MA.G5qttd.9jcvrXqEsB9PpfF3sCAhEor8KYmqTVdmwG5kxw"
+token = ""
 bot.run(token)  # Starts the bot
